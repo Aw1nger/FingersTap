@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,   
+    "target": "es5", // Ваша целевая версия ECMAScript
+    "outDir": "js", // Папка, куда будут помещены скомпилированные файлы
+    "rootDir": "ts",  // Папка, содержащая исходные TypeScript-файлы
+    "removeComments": true,
+  },
+  "include": [
+    "**/*.ts" // Путь к вашим исходным TypeScript-файлам
+  ],
+  "exclude": [
+    "node_modules" // Папки, которые не следует компилировать
+  ]
+}
